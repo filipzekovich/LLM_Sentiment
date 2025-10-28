@@ -60,34 +60,6 @@ pip install -r requirements.txt
    ollama run gemma3:1b
    ```
 
-## Usage
-
-### Quick Start
-
-```python
-from src import LexiconABSA, ML_ABSA, LLMABSA
-
-text = "The pizza was delicious but the service was terrible."
-
-# Method 1: Lexicon-Based
-lexicon_analyzer = LexiconABSA()
-results = lexicon_analyzer.analyze(text)
-for r in results:
-    print(f"{r.aspect}: {r.sentiment} ({r.confidence:.2f})")
-
-# Method 2: Transformer-Based
-ml_analyzer = ML_ABSA()
-results = ml_analyzer.analyze(text)
-for r in results:
-    print(f"{r.aspect}: {r.sentiment} ({r.confidence:.2f})")
-
-# Method 3: LLM-Based (requires Ollama)
-llm_analyzer = LLMABSA(model="gemma3:1b")
-results = llm_analyzer.analyze(text)
-for r in results:
-    print(f"{r.aspect}: {r.sentiment} ({r.confidence:.2f})")
-```
-
 ### Implementation 1: Lexicon-Based ABSA
 
 Uses spaCy for linguistic analysis and VADER for sentiment scoring.
@@ -224,8 +196,3 @@ pytest -v -k "not llm"
 ## Examples
 
 See `notebooks/comparison.ipynb` for detailed examples and comparison of all three methods.
-
-Quick verification:
-```bash
-python tests/check.py
-```
