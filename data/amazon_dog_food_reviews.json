@@ -1,0 +1,108 @@
+{
+  "simple_cases": [
+    {
+      "text": "Best dog food ever"
+    },
+    {
+      "text": "He loves it"
+    },
+    {
+      "text": "Great"
+    },
+    {
+      "text": "My dogs love this. I have two dogs that willnt eat anything else."
+    },
+    {
+      "text": "The ingredients are of good quality, very fresh and my dog loves the flavor"
+    },
+    {
+      "text": "Tried to change over to this brand, and my dog just doesn't like it and won't eat it."
+    },
+    {
+      "text": "Blue quality is always the best"
+    },
+    {
+      "text": "My dog loves it. 'Nuff said!"
+    },
+    {
+      "text": "Dog approved!"
+    },
+    {
+      "text": "Smells good and my dog loves it."
+    }
+  ],
+  "complex_cases": [
+    {
+      "text": "My dog (lab mix 40lbs) has been eating this for two years and still loves it, as well as my little bitty dog (6lb chi poo). We've switched the flavor up and they seem to like all of them. I have never noticed this affecting their tummies either. The ingredients are so much better than a lot of other dog food and I feel good about serving this to a part of the family."
+    },
+    {
+      "text": "I bought into the marketing hype about how I'm a better dog mom for buying this food. My girl ate it over the course of 8-10 months. There were many times when I'd put it in her bowl and she'd look up at me as if to say, \"Ugh, isn't there anything else?\" This is a dog who will eat carrots, kale, rabbit poop, dog poop...so I know she's not picky. 😆 All the more reason to investigate when she doesn't like the taste of something.After keeping a poop journal ( because yes, I'm THAT dog mom and also poop tell us what's going on in the body) I realized that her poops were always progressively runny as the day went on. Every. Single. Day. We feed 3x a day and she poops about 3 or 4x per day. I always clean it up, so yeah...I notice the subtle changes in the consistency. The only poop that was 100% solid was the first one of the day. Then it would get softer and softer until it was so runny that we'd go on walks and I couldn't even bag it. Also, she's a long-haired breed, so THAT's been a joy to deal with. 🤮 🤮 🤮I switched to another brand...Wellness https://www.amazon.com/gp/product/B001BORBHO...and holy 💩, ALL of her poops are ALL NORMAL. She also loves the taste of her new food. I love being able to pick it up after it comes out the other end. I love that I don't have to wash her entire back end after an especially messy poop. I will never buy anything from Blue Buffalo again."
+    },
+    {
+      "text": "My pup likes this food. The problem is ....The best by or expiration date was not present and there was a small hole in the bag so I don't know the quality so I threw it out and bought a bag from my pet store. Very disappointing and expensive."
+    },
+    {
+      "text": "I've been using this specific Blue Buffalo dog food for about 10 years and never had an issue until recently. This brand has gone down hill and the quality isn't what it used to be especially considering the price you're paying for the quality. For the last few weeks, my dog has been sick from her food. We tried a new package of the same food and she's still sick. Tried a different food and now she's like a completely different dog. Something isn't right here with this food and I would not recommend it for any loving pet owner. If you're looking for a good dog food, look elsewhere."
+    },
+    {
+      "text": "This doesn't seem to be the same food as in the store my dog has been eating the same product for stores and had no problems he ate the one from Amazon one time and got extremely sick vomiting and acting strangely. I didn't think it was the food at first but every time he ate, the results were the same I don't recommend this product at all"
+    },
+    {
+      "text": "My dog never vomited from his food but after started this brand, he was vomiting twice a day and I had to toss out the whole bag. A waste of money and disappointing. Cannot even get a refund for it"
+    },
+    {
+      "text": "Definitely the best in the market. A friend at work recommended it to me. My dog loves it and need not even require a lot of time to adjust to it. I fed a third of a cup to him every meal for just a week. Slight change in poop but nothing bad. He loves it and always looks forward to his every meal! I love the smell too!"
+    },
+    {
+      "text": "Have been using Blue for years and won't feed my precious fur babies anything else. This doggie loves the Lamb and the Chicken formulas."
+    },
+    {
+      "text": "Food had a foul smelling odor and made my dog sick. We must have gotten a bad bag. That's what you get for buying dog food online. Waste of $50."
+    },
+    {
+      "text": "My dogs love it and their veterinarian approves. This is a quality product, well worth the premium price."
+    }
+  ],
+  "edge_cases": [
+    {
+      "text": "Haven't heard any complaints from my dog so I guess it's delicious.",
+      "note": "Sarcasm/humor - indirect expression"
+    },
+    {
+      "text": "My dog wouldn't eat this even when we don't feed her anything else for days. She doesn't even want to smell it or in any way acknowledge presence of this, as if its a piece of plastic. She eats other dog food just fine, just not this brand. I made a conclusion this dog food is made of... whatever, don't know what. Be aware!",
+      "note": "Strong negative with metaphor and trailing off"
+    },
+    {
+      "text": "My 2 year old Labrador has been throwing up ever since we started feeding her from this bag. We substituted different food and she was fine. We tried to feed her with this product and she threw up again.",
+      "note": "Comparison/contrast pattern"
+    },
+    {
+      "text": "My cats refuse to eat this food. They are basically on a diet since buying this food. Wont buy again.",
+      "note": "Sarcasm - 'basically on a diet'"
+    },
+    {
+      "text": "My picky eater loves this food. It's every rate she eats her entire serving at once, and she's been doing it. We are on our third bag.",
+      "note": "Typo/informal language - 'every rate' instead of 'rare'"
+    },
+    {
+      "text": "Unable to return or request a refund due to the policy. It came with a puncture in the bottom which makes me question it's freshness.",
+      "note": "Implicit negative - questioning rather than stating"
+    },
+    {
+      "text": "Bag had a hole in it. Food had fallen out. That makes me really doubt food freshness.",
+      "note": "Doubt/uncertainty rather than direct negative"
+    },
+    {
+      "text": "dog does not like food . CANCELATION isNOThappening !!! STOP SENDING",
+      "note": "ALL CAPS frustration, formatting issues"
+    },
+    {
+      "text": "Highly recommend this product! Our dog love it too....",
+      "note": "Grammar error 'love' instead of 'loves'"
+    },
+    {
+      "text": "Great",
+      "note": "Single word - ambiguous without context"
+    }
+  ]
+}
