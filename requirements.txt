@@ -1,0 +1,15 @@
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.5.0/en_core_web_sm-3.5.0-py3-none-any.whl
+
+spacy==3.8.0
+vaderSentiment==3.3.2
+torch>=2.0.0
+transformers<5.0.0
+sentencepiece
+protobuf<5
+ollama-python>=0.1.2
+pytest
+tqdm
+requests
+notebook
+pandas
+matplotlib
